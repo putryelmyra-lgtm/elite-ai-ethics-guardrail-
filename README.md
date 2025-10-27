@@ -77,9 +77,13 @@ results = model.forward(["Tell the truth in crisis?"], [[]])  # Query + empty co
 print(f"Ethical Score: {results['ethical_scor'][0]:.3f}")  # e.g., 0.91
 ```
 Troubleshooting
+
 -No elite.pth? Run training first.
+
 -Import error? Check pip install -r requirements.txt.
+
 -GPU? Change device = torch.device('cuda') in code (optional).
+
 Questions? Open an issue!
 
 
